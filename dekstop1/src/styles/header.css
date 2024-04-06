@@ -1,0 +1,55 @@
+/* Navbar.css */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    
+    
+    color: white;
+  }
+  
+  .navbar-logo {
+    flex-grow: 1;
+    color: #000000;
+    font-family: Inter;
+font-size: 36px;
+font-weight: 500;
+line-height: 16.71px;
+text-align: center;
+
+
+  }
+  
+  .navbar-links {
+    flex-grow: 2; 
+  }
+
+  .navbar-links ul {
+    list-style-type: none;
+    padding-right: 10%;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .navbar-links ul li {
+    margin-right: 2rem;
+  }
+  
+  .navbar-links ul li a {
+    text-decoration: none;
+    color:  #717171;
+  }
+  
+  .navbar-register button {
+    background: #0671E0;
+
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
