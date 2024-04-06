@@ -1,16 +1,22 @@
 import React from 'react';
 import '../styles/footer.css'; 
-import Logo from '../styles/Assests/logo.jpg';
+import Logo from '../styles/Assests/Rectangle 159.png';
 
 const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer-left">
       <div className="footer-logo">
-          <img src={Logo} alt="Your Logo" className="logo-img" />
+        
+        
+        <div><img src={Logo} alt="Your Logo" className="logo-img" /></div>
+          
         </div>
         <div className="footer-copyright">
-          <p>© 2024 Your Company. All rights reserved.</p>
+          <p>Copyright @ 2020 hhhhhhhhhhhhh<br></br>
+
+
+All Rights Reserved</p>
         </div>
       </div>
       <div className="footer-right">
