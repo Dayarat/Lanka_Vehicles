@@ -20,7 +20,7 @@
   }
   
   .logo-img {
-    width: 300px; /* Adjust the size of the logo as needed */
+    width: 300px; 
   }
   
   .footer-copyright {
@@ -45,11 +45,11 @@ font-weight: 400;
   }
   
   .footer-category {
-    margin-right: 8rem; /* Add gap between categories */
+    margin-right: 8rem; 
   }
   
   .footer-category:last-child {
-    margin-right: 1rem; /* Remove gap for the last category */
+    margin-right: 1rem; 
   }
   
   .footer-category h3 {
@@ -103,11 +103,11 @@ font-weight: 400;
     }
     
     .footer-category:last-child {
-      margin-right: 0; /* Remove right margin for the last category on smaller screens */
+      margin-right: 0; 
     }
   
     .logo-img {
-      width: 200px; /* Adjust logo size for smaller screens */
+      width: 200px; 
     }
   }
   

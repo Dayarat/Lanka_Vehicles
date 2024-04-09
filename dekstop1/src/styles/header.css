@@ -1,60 +1,4 @@
-/* Navbar.css
-
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem;
-    
-    
-    color: white;
-  }
-  
-  .navbar-logo {
-    flex-grow: 1;
-    color: #000000;
-    font-family: Inter;
-font-size: 36px;
-font-weight: 500;
-line-height: 16.71px;
-text-align: center;
-
-
-  }
-  
-  .navbar-links {
-    flex-grow: 2; 
-  }
-
-  .navbar-links ul {
-    list-style-type: none;
-    padding-right: 10%;
-    margin: 0;
-    display: flex;
-    justify-content: flex-end;
-  }
-  
-  .navbar-links ul li {
-    margin-right: 2rem;
-  }
-  
-  .navbar-links ul li a {
-    text-decoration: none;
-    color:  #717171;
-  }
-  
-  .navbar-register button {
-    background: #0671E0;
-
-    color: white;
-    border: none;
-    padding: 0.5rem 1rem;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-   */
-
-   /* header.css */
+ /* header.css */
 
 .navbar {
   display: flex;
@@ -107,18 +51,18 @@ text-align: center;
 }
 
 .menu-icon {
-  display: none; /* Initially hide the hamburger menu icon */
+  display: none; 
 }
 
 /* Media Query for Responsive Layout */
 
 @media screen and (max-width: 768px) {
   .navbar-links {
-    display: none;/* Hide the links when in mobile view */
+    display: none;
   }
 
   .menu-icon {
-    display: block; /* Display the hamburger menu icon */
+    display: block; 
     cursor: pointer;
   }
 
@@ -151,7 +95,7 @@ text-align: center;
     
     
     position: absolute;
-    top: 70px; /* Adjust this value based on your header height */
+    top: 70px; 
     right: 0;
     z-index: 999;
     padding: 1rem;
